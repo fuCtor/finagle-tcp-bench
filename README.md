@@ -2,7 +2,7 @@
 
 Baseline
 ```
-gunzip -c message_1gb.txt.gz| netcat localhost 9999 | pv > /dev/null                            a.m.shcherbakov@Macbookpro-amshcherbakov
+gunzip -c message_1gb.txt.gz| netcat localhost 9999 | pv > /dev/null
  262MiB 0:00:10 [26.8MiB/s]
 ```
 
